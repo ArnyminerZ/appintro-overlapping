@@ -4,6 +4,7 @@ androidx_activity_compose = "1.8.2"
 androidx_test = "1.5.0"
 androidx_test_ext = "1.1.5"
 appcompat = "1.6.1"
+appintro = "6.3.1"
 compile_sdk_version = "34"
 compose-bom = "2023.10.01"
 compose_compilerextension = "1.5.5"
@@ -38,6 +39,7 @@ detekt_formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", 
 espresso_core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso.core" }
 agp = { module = "com.android.tools.build:gradle", version.ref = "agp" }
 kgp = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+appintro = { module = "com.github.AppIntro:AppIntro", version.ref = "appintro" }
 
 [plugins]
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
